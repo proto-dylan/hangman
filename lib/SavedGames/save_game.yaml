@@ -1,49 +1,20 @@
---- !ruby/object:Board
-blanks:
-- _
-- _
-- _
-- a
-- _
-- t
-secret_word:
-- s
-- o
-- n
-- a
-- n
-- t
-alphabet:
+---
+:guessed:
 - a
 - b
 - c
-- d
-- e
-- f
-- g
-- h
-- i
-- j
-- k
-- l
-- m
-- n
+:secret_word:
+- c
 - o
-- p
-- q
 - r
-- s
-- t
-- u
-- v
-- w
-- x
-- y
-- z
-guessed:
-- a
-- b
+- k
+- e
 - d
-- t
-remaining: 4
-guess: save
+:remaining: 4
+:blanks:
+- c
+- _
+- _
+- _
+- _
+- _
