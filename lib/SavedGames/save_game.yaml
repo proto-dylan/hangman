@@ -1,20 +1,30 @@
 ---
 :guessed:
-- a
-- b
-- c
+- s
+- e
+- r
 :secret_word:
+- u
+- n
 - c
 - o
+- u
 - r
-- k
+- t
 - e
-- d
-:remaining: 4
+- o
+- u
+- s
+:remaining: 6
 :blanks:
-- c
 - _
 - _
 - _
 - _
 - _
+- r
+- _
+- e
+- _
+- _
+- s

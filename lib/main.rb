@@ -122,7 +122,7 @@ class Board
   def check_win
     if @blanks == @secret_word
       puts "\n\n\n\n\n\n\n"
-      puts "            You won! Cut \'m down boys, done got worded right out"
+      puts "            You won! The word was #{@secret_word.join("")}\n. Cut \'m down boys, done got worded right out"
       gameover()
     end
     if @remaining == 0
@@ -143,7 +143,7 @@ class Board
       game = Hangman.new
       game.play
     elsif response.downcase == 'l'
-      game.load_game
+      self.load_game
     end
   end
 
